@@ -40,6 +40,15 @@ export default function Home() {
     }
   };
 
+  const handleStop = async () => {
+    try {
+      const response = await axios.post('http://localhost:8080/api/config/stop');
+      console.log('System stopped:', response.data);
+    } catch (error) {
+      console.error('Error stopping the system:', error);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-slate-200 flex flex-col items-center justify-center p-8 text-black">
       <div className="w-full max-w-md mx-auto p-16 bg-slate-50 rounded-xl shadow-lg flex items-center justify-center hover:shadow-xl transition duration-300 ease-in-out mb-6">
@@ -54,7 +63,10 @@ export default function Home() {
           >
             Start
           </button>
-          <button className="flex-1 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-300">
+          <button
+            onClick={handleStop}
+            className="flex-1 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-300"
+          >
             Stop
           </button>
         </div>
