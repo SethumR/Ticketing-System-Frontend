@@ -9,7 +9,7 @@ export default function CurrentConfiguration({ config = {} }) {
   return (
     <div className="bg-slate-50 text-gray-800 p-8 rounded-lg shadow-2xl max-w-md w-full mx-auto mt-8">
       <h2 className="text-2xl font-bold mb-6 text-center">Current Configuration</h2>
-      <ul className="space-y-4">
+      <ul className="space-y-3.5">
         <li className="flex justify-between items-center">
           <span className="font-medium">Total number of tickets:</span>
           <span className={`px-3 py-1 rounded-full ${totalTickets === '0' ? 'bg-gray-100 text-gray-800' : 'bg-blue-100 text-blue-800'}`}>

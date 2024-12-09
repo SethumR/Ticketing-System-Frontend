@@ -50,8 +50,8 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-200 flex flex-col items-center justify-center p-8 text-black">
-      <div className="w-full max-w-md mx-auto p-16 bg-slate-50 rounded-xl shadow-lg flex items-center justify-center hover:shadow-xl transition duration-300 ease-in-out mb-6">
+    <div className="min-h-screen bg-slate-200 flex flex-col items-center justify-center p-4 text-black">
+      <div className="w-full max-w-md mx-auto p-14 bg-slate-50 rounded-xl shadow-lg flex items-center justify-center hover:shadow-xl transition duration-300 ease-in-out mb-6">
         <h1 className="text-xl font-semibold text-gray-800">Real-Time Simulation</h1>
       </div>
 
