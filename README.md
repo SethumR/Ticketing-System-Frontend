@@ -23,8 +23,8 @@ The simulation updates in real time, displaying the current ticket array size. U
 
 Ensure the following are installed on your system:
 
-- **Node.js**: Version 14 or higher.
-- **React**: Version 18 or higher.
+- Node.js: Version 14 or higher.
+- React: Version 18 or higher.
 - Vite (installed during setup)
   
 ---
@@ -71,42 +71,42 @@ Create Configuration: Open a form to input custom settings (e.g., ticket release
 ---
 
 ### Starting the System
-- Ensure a **valid configuration** is set.
+- Ensure a valid configuration is set.
 - Click the **"Start" button** to begin the ticket simulation.
 - Observe real-time updates on the screen, including the current ticket array size.
 
 ## Stopping the System
-- Click the **"Stop" button** to halt the simulation at any time.
+- Click the "Stop" button to halt the simulation at any time.
 
 ---
 ## 💻 UI Controls
 
 #### Configuration Button
-- **Create Configuration**: Opens a form to set up a new configuration.
-- **Load**: Fetches the most recent configuration.
+- Create Configuration: Opens a form to set up a new configuration.
+- Load: Fetches the most recent configuration.
 
 #### Start Button
-- **Initiates the ticket simulation** (only enabled after setting a configuration).
+- Initiates the ticket simulation (only enabled after setting a configuration).
 
 #### Stop Button
-- **Stops the ticket simulation**.
+- Stops the ticket simulation.
 
 ---
 ## 🌟 Key Features
 
-- **Interactive Form**: User-friendly configuration setup with validation.
-- **Real-Time Updates**: Displays the current ticket array size.
-- **Dynamic Controls**: Start/Stop buttons enable based on simulation state.
-- **Responsive Design**: Ensures compatibility across devices.
+- Interactive Form: User-friendly configuration setup with validation.
+- Real-Time Updates: Displays the current ticket array size.
+- Dynamic Controls: Start/Stop buttons enable based on simulation state.
+- Responsive Design: Ensures compatibility across devices.
 
 ---
 
 ## 🛠️ Development Tools and Technologies
 
-- **React.js**: Framework for building the frontend.
-- **Tailwind CSS**: For responsive and modern styling.
-- **Axios**: For HTTP requests to the backend.
-- **WebSocket**: For real-time communication between frontend and backend.
+- React.js: Framework for building the frontend.
+- Tailwind CSS: For responsive and modern styling.
+- Axios: For HTTP requests to the backend.
+- WebSocket: For real-time communication between frontend and backend.
 
 ---
 # 📧 Contact
