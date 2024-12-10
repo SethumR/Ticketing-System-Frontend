@@ -2,6 +2,9 @@
 
 This repository contains the frontend for a Real-Time Ticket Simulation System Frontend, built using React.js and Tailwind CSS. The system allows users to simulate a real-time ticket distribution process with configurable options. The frontend communicates seamlessly with the backend using Axios and WebSocket for real-time updates
 
+![Frontend] http://localhost:5173/
+
+
 ---
 
 ## 🛠️ Introduction
