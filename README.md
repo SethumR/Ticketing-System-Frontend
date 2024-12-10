@@ -1,10 +1,10 @@
 # Real-Time Ticket Simulation System Frontend
 
-This repository contains the frontend for a Real-Time Ticket Simulation System, built using React.js and Tailwind CSS. The system allows users to simulate a real-time ticket distribution process with configurable options. The frontend communicates seamlessly with the backend using Axios and WebSocket for real-time updates
+This repository contains the frontend for a Real-Time Ticket Simulation System Frontend, built using React.js and Tailwind CSS. The system allows users to simulate a real-time ticket distribution process with configurable options. The frontend communicates seamlessly with the backend using Axios and WebSocket for real-time updates
 
 ---
 
-## 📖 Introduction
+## 🛠️ Introduction
 
 The Real-Time Ticket Simulation System is an interactive web application designed for real-time ticket management. The interface includes three buttons:
 
@@ -34,8 +34,8 @@ Ensure the following are installed on your system:
 #### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/real-time-ticket-simulation-frontend.git
-cd real-time-ticket-simulation-frontend
+git clone https://github.com/SethumR/Ticketing-System-Frontend.git
+cd Ticketing-System-Frontend
 ```
 
 #### Install Dependencies 
@@ -67,7 +67,7 @@ Create Configuration: Open a form to input custom settings (e.g., ticket release
    - Updated values will reflect in the current configuration.
  Save the configuration to proceed.
    
-### ⚠️ Note: The Start and Stop buttons are disabled until the configuration form is completed.
+#### ⚠️ Note: The Start and Stop buttons are disabled until the configuration form is completed.
 ---
 
 ### Starting the System
