@@ -55,9 +55,9 @@ npm run dev
 ## 📖 Usage Instructions
 
 ### Configuring the System
-1. **Click the "Configuration" button** on the main UI.
-2. **Create Configuration**: Open a form to input custom settings (e.g., ticket release rate, customer retrieval rate, etc.).
-   - **Load**: Retrieve the most recent configuration.
+Click the Configuration button on the main UI.
+Create Configuration: Open a form to input custom settings (e.g., ticket release rate, customer retrieval rate, etc.).
+   - Load: Retrieve the most recent configuration.
    - Fill in all required fields in the form.
    - Fields include settings like:
      - Total tickets
@@ -65,17 +65,15 @@ npm run dev
      - Number of vendors
      - And more.
    - Updated values will reflect in the current configuration.
-3. **Save the configuration** to proceed.
+ Save the configuration to proceed.
    
-⚠️ Note: The Start and Stop buttons are disabled until the configuration form is completed.
+### ⚠️ Note: The Start and Stop buttons are disabled until the configuration form is completed.
 ---
 
 ### Starting the System
 - Ensure a **valid configuration** is set.
 - Click the **"Start" button** to begin the ticket simulation.
 - Observe real-time updates on the screen, including the current ticket array size.
-
----
 
 ## Stopping the System
 - Click the **"Stop" button** to halt the simulation at any time.
