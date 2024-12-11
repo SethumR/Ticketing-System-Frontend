@@ -79,7 +79,7 @@ Create Configuration: Open a form to input custom settings (e.g., ticket release
 - Click the **"Start" button** to begin the ticket simulation.
 - Observe real-time updates on the screen, including the current ticket array size.
 
-## Stopping the System
+### Stopping the System
 - Click the "Stop" button to halt the simulation at any time.
 
 ---
